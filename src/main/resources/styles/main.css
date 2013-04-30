@@ -1,0 +1,14 @@
+/* 
+    Document   : main.css
+    Created on : Apr 30, 2013, 12:27:26 PM
+    Author     : tarrsalah.org
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.root {
+	-fx-background-color: khaki
+}
+#red_btn { 
+	-fx-base: red;
+}
