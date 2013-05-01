@@ -15,7 +15,6 @@
  */
 package org.tarrsalah.minimal.javafx.pom;
 
-import java.util.ResourceBundle;
 import javafx.application.Application;
 import javafx.scene.SceneBuilder;
 import javafx.scene.control.ButtonBuilder;
@@ -38,7 +37,7 @@ public class App extends Application {
 	@Override
 	public void start(Stage stage) {
 		
-		String cssFile = getClass().getClassLoader().getResource(ResourceBundle.getBundle("project").getString("cssFile")).toExternalForm();
+		String cssFile = "styles/main.css";
 
 		stage.setScene(SceneBuilder.create()
 				.root(BorderPaneBuilder.create()
