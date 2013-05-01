@@ -1,0 +1,40 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building minimal-javafx-pom 0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ minimal-javafx-pom ---
+[INFO] Deleting /home/tarrsalah/src/netbeans/minimal-javafx-pom/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ minimal-javafx-pom ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ minimal-javafx-pom ---
+[INFO] Compiling 1 source file to /home/tarrsalah/src/netbeans/minimal-javafx-pom/target/classes
+[INFO] 
+[INFO] >>> javafx-maven-plugin:1.5:build-jar (default-cli) @ minimal-javafx-pom >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ minimal-javafx-pom ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ minimal-javafx-pom ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< javafx-maven-plugin:1.5:build-jar (default-cli) @ minimal-javafx-pom <<<
+[INFO] 
+[INFO] --- javafx-maven-plugin:1.5:build-jar (default-cli) @ minimal-javafx-pom ---
+[INFO] Assembling JavaFX executable JAR to '/home/tarrsalah/src/netbeans/minimal-javafx-pom/target/minimal-javafx-pom-0.1-jfx.jar'
+[INFO] Unpacking module dependendencies to: /home/tarrsalah/src/netbeans/minimal-javafx-pom/target/jfx-dependencies
+[INFO] Java home is: /home/tarrsalah/local/jdk1.7.0_15/jre
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.773s
+[INFO] Finished at: Wed May 01 12:09:29 CET 2013
+[INFO] Final Memory: 16M/165M
+[INFO] ------------------------------------------------------------------------

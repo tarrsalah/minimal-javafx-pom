@@ -16,6 +16,8 @@
 package org.tarrsalah.minimal.javafx.pom;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.SceneBuilder;
 import javafx.scene.control.ButtonBuilder;
 import javafx.scene.layout.BorderPaneBuilder;
@@ -33,23 +35,32 @@ public class App extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
+	private String cssFileString;
+	private String cssFile;
 
 	@Override
 	public void start(Stage stage) {
-		
-		String cssFile = "styles/main.css";
+
+//		cssFile = getClass().getClassLoader().getResource(cssFileString).toExternalForm();
+		cssFile = "styles/main.css";
 
 		stage.setScene(SceneBuilder.create()
 				.root(BorderPaneBuilder.create()
-						.center(ButtonBuilder.create()
-								.text("red button")
-								.id("red_btn")	
-								.build())
-						.build())
+				.center(ButtonBuilder.create()
+				.text("red button")
+				.onAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent t) {
+				System.out.println(cssFile);
+			}
+		})
+				.id("red_btn")
+				.build())
+				.build())
 				.width(400)
 				.height(380)
 				.stylesheets(cssFile)
-				.build());		
+				.build());
 		stage.show();
 	}
 }
