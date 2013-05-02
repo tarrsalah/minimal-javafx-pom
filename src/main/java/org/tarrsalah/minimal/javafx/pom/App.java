@@ -47,7 +47,7 @@ public class App extends Application {
 		stage.setScene(SceneBuilder.create()
 				.root(BorderPaneBuilder.create()
 				.center(ButtonBuilder.create()
-				.text("red button")
+				.text("  red button")
 				.onAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent t) {

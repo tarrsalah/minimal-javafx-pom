@@ -11,4 +11,8 @@
 }
 #red_btn { 
 	-fx-base: red;
+	-fx-background-image: url("Add.png");
+	-fx-background-size: 18 18;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position:left;	
 }
