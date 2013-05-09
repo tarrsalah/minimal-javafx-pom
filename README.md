@@ -1,4 +1,4 @@
-# minimal-javafx-pom ![wtfpl](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
+# minimal-javafx-pom
 
 This is a minimal **javafx-2** maven setup, using [Zonski javafx maven plugin](https://github.com/zonski/javafx-maven-plugin).
 
